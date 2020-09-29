@@ -35,7 +35,7 @@ if __name__ == '__main__':
     # Adding Arguments
     #####################
 
-    p = argparse.ArgumentParser(description='Feature Geneation Tool from DNA, RNA, and Protein Sequences')
+    p = argparse.ArgumentParser(description='Feature Geneation Tool from DNA Sequences')
 
     p.add_argument('-fa', '--fasta', type=str, help='~/FASTA.txt', default='OriC-Data.fsa')
     p.add_argument('-la', '--label', type=str, help='~/Labels.txt', default='OriC-Label.txt')
