@@ -40,10 +40,7 @@ if __name__ == '__main__':
     p.add_argument('-fa', '--fasta', type=str, help='~/FASTA.txt', default='OriC-Data.fsa')
     p.add_argument('-la', '--label', type=str, help='~/Labels.txt', default='OriC-Label.txt')
 
-    p.add_argument('-k', '--K', type=int, help='value of k for KNN', default=5)
     p.add_argument('-cv', '--nFCV', type=int, help='Number of crossValidation', default=10)
-
-
 
     p.add_argument('-f1', '--category1', nargs='*', help='#s feature inclusive', default=[0, 84])
     p.add_argument('-f2', '--category2', nargs='*', help='#s feature inclusive', default=[84, 148])
