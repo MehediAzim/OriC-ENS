@@ -51,7 +51,6 @@ user@machine:~$ python main.py -fa dna.fasta -la dnaLabel.txt
 | ------- | ------------ |
 | -fa | Fasta file with .txt or .fasta format  |
 | -la | Label file with .txt extension  
-| -cv | Cross Validation value 
 
 
 
