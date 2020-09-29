@@ -6,12 +6,10 @@ To be added
 All the datasets file are in `FASTA` format which can be with `.txt` or `.fasta` extension. E.g. `anyName.txt` or  `anyName.fasta`. Please know more about the FASTA file format [by clicking here!](https://en.wikipedia.org/wiki/FASTA_format).
 
 ```
->1AKHA|1
-KKEKSPKGKSSISPQARAFLEEVFRRKQSLNSKEKEEVAKKCGITPLQVRVWFINKRMRSK
 >1AOII|1
-ATCAATATCCACCTGCAGATTCTACCAAAAGTGTATTTGGAAACTGCTCCATCAAAAGGCATGTTCAGCTGAATTCAGCTGAACATGCCTTTTGATGGAGCAGTTTCCAAATACACTTTTGGTAGAATCTGCAGGTGGATATTGAT
->1B6WA|1
-MELPIAPIGRIIKDAGAERVSDDARITLAKILEEMGRDIASEAIKLARHAGRKTIKAEDIELAVRRFK
+ATCAATATCCACCTGCAGATTCGATTCAACTACCA
+>2AOII|2
+ATCAATATCCACAATACCTGCAGATTCTACCA
 ```
 
 ### [2]. Feature Generation:
@@ -36,27 +34,24 @@ kGap is an integer number representation of gap count in feature N. For example 
 
 ### [3]. How to Run Package:
 
-#### [3.1] Test Command-line #1: Without Feature Selection
+#### [3.1] Test Command-line #1: Run on OriC data
 ```console
-user@machine:~$ python main.py -fa protein.fasta -la proteinLabel.txt -seq protein
+user@machine:~$ python main.py
 ```
 
-#### [3.2] Test Command-line #2: Customize Feature Selection
+#### [3.2] Test Command-line #2: Run on different dataset
 ```console
-user@machine:~$ python main.py -fa protein.fasta -la proteinLabel.txt -seq protein -f1 0 500 -f2 400 2400 -f3 1600 24420
+user@machine:~$ python main.py -fa dna.fasta -la dnaLabel.txt
 ```
 
-#### [3.3] Test Command-line #3: Customize Feature Selection, and Classifier Selection
-```console
-user@machine:~$ python main.py -fa protein.fasta -la proteinLabel.txt -seq protein –m1 DT –m2 SVM –m3 LR -f1 0 500 -f2 400 2400 -f3 1600 24420
-```
 **Note: You can use anyone from them.**
 
 **Table 3:**  command line element
 | Symbol  | Explanation  |
 | ------- | ------------ |
 | -fa | Fasta file with .txt or .fasta format  |
-| -la | Label file with .txt extension  |
+| -la | Label file with .txt extension  
+| -cv | Cross Validation value 
 
 
 
