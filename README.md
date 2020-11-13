@@ -37,11 +37,11 @@ kGap is an integer number representation of gap count in feature N. For example 
 
 | Features  | Type  | Number of features  | Feature Structure  | Explanation  |
 | --------- | ----- | ------------------- | ------------------ | ------------ |
-| 1 | Monomer Composition  | 4  | N | when K=1, 4 features for DNA/RNA | 
-| 2 | Dipeptide Composition  | 16  | NN | when K=2, 4\*4=16 features for DNA/RNA | 
-| 3 | Tripeptide Composition  | 64  | NNN | when K=3, 4\*4\*4=64 features for DNA/RNA | 
-| 4 | K-gapped Di-mono Composition  | 64  | NN_N | when KGap=1, 64 features for DNA/RNA |
-| 5 | K-gapped Mono-Di Composition  | 64  | N_NN | when KGap=1, 64 features for DNA/RNA |
+| 1 | Monomer Composition  | 4  | N | when K=1, 4 features for DNA | 
+| 2 | Dipeptide Composition  | 16  | NN | when K=2, 4\*4=16 features for DNA | 
+| 3 | Tripeptide Composition  | 64  | NNN | when K=3, 4\*4\*4=64 features for DNA | 
+| 4 | K-gapped Di-mono Composition  | 64  | NN_N | when KGap=1, 64 features for DNA |
+| 5 | K-gapped Mono-Di Composition  | 64  | N_NN | when KGap=1, 64 features for DNA |
 |  | **Total**  | **212**  |  |  |
 
 **NB:** For DNA sequences N = {A,C,G,T}
