@@ -61,8 +61,8 @@ def classifiers(X, Y, Z, Label1, Label2, Label3, args):
 
         #############################
         # For Model2
-        Y_train = X[train_index2]
-        Y_test = X[test_index2]
+        Y_train = Y[train_index2]
+        Y_test = Y[test_index2]
 
         LabelY_train = Label2[train_index2]
         # LabelY_test = Label2[test_index2]       # unused
@@ -73,8 +73,8 @@ def classifiers(X, Y, Z, Label1, Label2, Label3, args):
 
 
         #############################
-        Z_train = X[train_index3]
-        Z_test = X[test_index3]
+        Z_train = Z[train_index3]
+        Z_test = Z[test_index3]
 
         LabelZ_train = Label3[train_index3]
         # LabelZ_test = Label3[test_index3]       # unused
