@@ -16,7 +16,7 @@ voting to combine the prediction by each predictor. Experimental results on the 
 dataset has shown that our method achieves an accuracy of 91.62% which outperforms other
 state-of-the-art methods by a significant margin. We have also tested our method using other
 metrics such as Matthews Correlation Coefficient (MCC), Area Under Curve(AUC), Sensitivity,
-and Specificity, where it has achieved a score of 0.83, 0.98, and 0.90 respectively
+and Specificity, where it has achieved a score of 0.83, 0.98, 0.90, and 0.92 respectively
 ### [1]. Read File:
 All the datasets file are in `FASTA` format which can be with `.txt` or `.fasta` extension. E.g. `anyName.txt` or  `anyName.fasta`. Please know more about the FASTA file format [by clicking here!](https://en.wikipedia.org/wiki/FASTA_format).
 
