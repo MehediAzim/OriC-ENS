@@ -1,8 +1,6 @@
 #  OriC-ENS: A Sequence-Based Ensemble Classifier for Predicting Origin of Replication in S. cerevisiae.
 
-<div align="center">
-  \### Abstract
-</div>
+### Abstract
 
 DNA Replication plays the most crucial part in biological inheritance, ensuring an even flow of
 genetic information from parent to offspring. The beginning site of DNA Replication which is
