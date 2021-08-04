@@ -70,7 +70,7 @@ user@machine:~$ python main.py -fa dna.fasta -la dnaLabel.txt
 | -la | Label file with .txt extension  
 
 
-# Citation
+## Citation
 Azim, Sayed Mehedi, Md Rakibul Haque, and Swakkhar Shatabda. "OriC-ENS: A sequence-based ensemble classifier for predicting origin of replication in S. cerevisiae." Computational Biology and Chemistry 92 (2021): 107502.
 ## BibTeX
 ```
